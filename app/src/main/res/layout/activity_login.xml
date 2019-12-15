@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bground_login"
+    android:id="@+id/login_form"
+    android:weightSum="10"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="5"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="110dp"
+            android:layout_height="140dp"
+            android:background="@mipmap/logo_cee" />
+    </LinearLayout>
+
+
+    <EditText
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:background="@drawable/edittextstyle"
+        android:drawableLeft="@drawable/icon_user"
+        android:hint="@string/user_name"
+        android:id="@+id/edtUsernameLg"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="@drawable/edittextstyle"
+        android:drawableLeft="@drawable/password"
+        android:hint="@string/password"
+        android:id="@+id/edtPasswordLg"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        />
+    <LinearLayout
+        android:layout_weight="0"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:layout_marginLeft="60dp"
+            android:layout_weight="1"
+            android:textColor="#ffffffff"
+            android:id="@+id/ckbremember"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Keep me sign in"
+            android:layout_marginTop="4dp"
+            />
+        <TextView
+            android:layout_marginRight="40dp"
+            android:layout_weight="1"
+            android:textColor="#ffffffff"
+            android:textSize="17sp"
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/forgot"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="@drawable/edittextstyle"
+        android:gravity="center"
+        android:text="@string/login"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/txtRegister"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textColor="#ffffff"
+        android:text="@string/register_here"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <!--<ProgressBar-->
+        <!--android:id="@+id/login_progress"-->
+        <!--style="?android:attr/progressBarStyleLarge"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--android:layout_marginTop="217dp"-->
+        <!--android:layout_marginLeft="154dp"-->
+        <!--android:visibility="gone"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent" />-->
+</LinearLayout>

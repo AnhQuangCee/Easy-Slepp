@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Login-->
+    <string name="app_name">Easy Sleep</string>
+    <string name="user_name">Tên đăng nhập</string>
+    <string name="password">Mật khẩu</string>
+    <string name="login">ĐĂNG NHẬP</string>
+    <string name="register_here">ĐĂNG KÝ</string>
+    <string name="forgot">Quên mật khẩu?</string>
+    <string name="Keep_me_sign_in">Nhớ mật khẩu</string>
+    <string name="menu">MỤC LỤC</string>
+
+    <!--Setting-->
+    <string name="setting">SETTING</string>
+    <string name="old">Người cao tuổi</string>
+    <string name="young">Người lớn</string>
+    <string name="children">Trẻ em</string>
+    <string name="options">Tùy chỉnh</string>
+    <string name="return_">Trở về</string>
+    <string name="stop">Dừng lại</string>
+    <string name="minus">Hạ gối</string>
+    <string name="add">Nâng gối</string>
+
+    <!--Massage-->
+    <string name="massage">MASSAGE</string>
+    <string name="high">Mức cao</string>
+    <string name="average">Trung bình</string>
+    <string name="low">Mức thấp</string>
+
+    <!--Alarm clock-->
+    <string name="alarm_clock">BÁO THỨC</string>
+    <string name="set_hours">ĐẶT GIỜ</string>
+    <string name="hello">Hello!</string>
+    <string name="ok">Chấp nhận</string>
+    <string name="pause">Tắt báo thức</string>
+
+    <!--Alertdialog-->
+    <string name="ok_alert">ĐỒNG Ý</string>
+    <string name="cancel_alert">THOÁT</string>
+</resources>

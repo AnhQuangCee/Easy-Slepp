@@ -1,0 +1,39 @@
+<resources>
+    <!--Login-->
+    <string name="app_name">Easy Sleep</string>
+    <string name="user_name">Username</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="register_here">Register here</string>
+    <string name="forgot">Forgot?</string>
+    <string name="Keep_me_sign_in">Keep me sign in</string>
+    <string name="menu">MENU</string>
+
+    <!--Setting-->
+    <string name="setting">SETTING</string>
+    <string name="old">OLD</string>
+    <string name="young">YOUNG</string>
+    <string name="children">CHILDREN</string>
+    <string name="options">OPTIONS</string>
+    <string name="return_">RETURN</string>
+    <string name="stop">STOP</string>
+    <string name="minus">MINUS</string>
+    <string name="add">ADD</string>
+
+    <!--Massage-->
+    <string name="massage">MASSAGE</string>
+    <string name="high">HIGH</string>
+    <string name="average">AVERAGE</string>
+    <string name="low">LOW</string>
+
+    <!--Alarm clock-->
+    <string name="alarm_clock">ALRAM CLOCK</string>
+    <string name="set_hours">SET HOUR</string>
+    <string name="hello">Hello!</string>
+    <string name="ok">OK</string>
+    <string name="pause">Pause</string>
+
+    <!--Alertdialog-->
+    <string name="ok_alert">OK</string>
+    <string name="cancel_alert">CANCEL</string>
+</resources>
